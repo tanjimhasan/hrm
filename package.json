@@ -2,6 +2,10 @@
   "name": "hrm",
   "version": "1.0.0",
   "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
   "repository": "https://github.com/tanjimhasan/hrm.git",
   "author": "Tanjim Hasan <tanjim.hasan.pro@gmail.com>",
   "license": "MIT",
@@ -15,5 +19,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.2",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
