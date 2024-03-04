@@ -6,3 +6,8 @@ const app = express();
 config();
 
 connectDB()
+
+app.use(express.json());
+
+//middleware for cookies
+app.use(cookieParser());
